@@ -2,7 +2,8 @@ import { useLanyard } from "use-lanyard";
 import { motion } from "framer-motion";
 
 const Spotify = () => {
-    const { data: user } = useLanyard("705665813994012695");
+    const { data: user } = useLanyard("710568354867314718");
+    console.log(user)
 
     if (!user || !user.spotify) {
         return null;
